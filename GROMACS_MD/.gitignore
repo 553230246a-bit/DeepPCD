@@ -1,0 +1,21 @@
+config.ps1
+*.bak
+*~
+#*
+.#*
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+
+# Large trajectories and binary run files should normally be archived elsewhere.
+*.xtc
+*.trr
+*.cpt
+*.tpr
+*.edr
+
+# GROMACS temporary backups
+\#*\#
+step*.pdb
+state_prev.cpt

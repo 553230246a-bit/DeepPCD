@@ -1,0 +1,27 @@
+# Radius of gyration of selected residues
+# Column 1: residue number
+# Column 2: mean Rg (nm)
+# Column 3: standard deviation (nm)
+@    title "Per-residue radius of gyration"
+@    subtitle "Mean Rg with standard deviation"
+@    xaxis label "Residue number"
+@    yaxis label "Radius of gyration (nm)"
+@    type xydy
+@    s0 legend "Mean Rg"
+@    s0 errorbar on
+      59     0.28817805     0.00399827
+      94     0.19114853     0.00205461
+      99     0.20742879     0.00291328
+     105     0.20783922     0.00310281
+     136     0.18281052     0.00238915
+     168     0.29643396     0.00306086
+     173     0.18701861     0.00270576
+     196     0.21816633     0.00484012
+     203     0.15868247     0.00190945
+     209     0.21435812     0.00270038
+     210     0.20788747     0.00879610
+     213     0.18032791     0.00232789
+     228     0.18519120     0.00810989
+     230     0.18601604     0.00299230
+     239     0.22082930     0.00257815
+     255     0.25003185     0.01430169

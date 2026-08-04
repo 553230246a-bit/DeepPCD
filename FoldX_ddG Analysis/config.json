@@ -1,0 +1,28 @@
+{
+  "workflow_name": "FoldX DDG analysis of 22 independent single-point mutations",
+  "operating_system": "Windows 11",
+  "foldx_version": "FoldX 5.1",
+  "input_structure": "data/input/REPLACE_WITH_FINAL_INPUT_PDB.pdb",
+  "mutation_file": "mutations/individual_list.txt",
+  "number_of_mutations": 22,
+  "parameters": {
+    "RepairPDB": {
+      "command": "RepairPDB",
+      "other_parameters": "FoldX defaults"
+    },
+    "BuildModel": {
+      "command": "BuildModel",
+      "numberOfRuns": 3,
+      "timeSeedRotabase": false,
+      "out_pdb": false,
+      "other_parameters": "FoldX defaults"
+    }
+  },
+  "total_mutant_calculations": 66,
+  "ddg_definition": "DeltaG_mutant - DeltaG_wild_type",
+  "units": "kcal/mol",
+  "postprocessing": {
+    "neutral_band_kcal_mol": 0.5,
+    "note": "Exploratory classification only; not a FoldX calculation cutoff."
+  }
+}

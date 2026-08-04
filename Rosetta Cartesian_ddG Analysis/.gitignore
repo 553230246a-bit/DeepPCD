@@ -1,0 +1,15 @@
+config.sh
+data/input/*.pdb
+!data/input/.gitkeep
+input/processed/*.pdb
+relax/models/*.pdb
+relax/models/score.sc
+results/raw/*/
+logs/*.log
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+Thumbs.db

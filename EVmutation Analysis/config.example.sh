@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+export PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+export TARGET_ID="BhNIT"
+export TARGET_FASTA="$PROJECT_ROOT/data/input/BhNIT.fasta"
+export UNIREF90_FASTA="/mnt/d/EVmutation_database/uniref90.fasta"
+export EVCOUPLINGS_VENV="$HOME/.venvs/evcouplings"
+export PLMC_BIN="$HOME/software/plmc/bin/plmc"
+export JACKHMMER_BIN="$(command -v jackhmmer)"
+export JACKHMMER_CPU=8
+export JACKHMMER_SEED=42
+export JACKHMMER_ITERATIONS=5
+export JACKHMMER_EVALUE="1e-3"
+export JACKHMMER_INCLUSION_EVALUE="1e-3"
+export JACKHMMER_DOMAIN_EVALUE="1e-3"
+export JACKHMMER_DOMAIN_INCLUSION_EVALUE="1e-3"
+export MINIMUM_SEQUENCE_COVERAGE="0.70"
+export PLMC_THETA="0.2"
+export PLMC_LAMBDA_E="16.0"
+export PLMC_LAMBDA_H="0.01"
+export PLMC_MAX_ITERATIONS=100
+export PLMC_CORES=8
+export PLMC_MODEL_PRECISION="float32"

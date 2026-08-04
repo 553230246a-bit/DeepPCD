@@ -1,0 +1,24 @@
+{
+  "model_file": "/home/ubuntu24/evmutation_BhNIT/model/BhNIT.model",
+  "model_precision": "float32",
+  "model_length": 338,
+  "model_index_start": 1,
+  "model_index_end": 338,
+  "number_of_requested_mutations": 22,
+  "N_valid": 53836,
+  "N_invalid": 0,
+  "N_eff": 21368.5859375,
+  "theta": 0.20000000298023224,
+  "lambda_h": 0.009999999776482582,
+  "lambda_J": 16.0,
+  "lambda_group": 0.0,
+  "plmc_iterations": 100,
+  "score_definition": "mutant statistical Hamiltonian minus target-sequence statistical Hamiltonian",
+  "units": "dimensionless evolutionary statistical-energy units; not kcal/mol",
+  "output_columns": {
+    "deltaE_epistatic_full": "Full pairwise Potts-model statistical energy difference",
+    "deltaE_epistatic_couplings": "Contribution from pairwise residue couplings",
+    "deltaE_epistatic_fields": "Contribution from single-site fields",
+    "deltaE_independent": "Statistical energy difference from the independent-site model"
+  }
+}

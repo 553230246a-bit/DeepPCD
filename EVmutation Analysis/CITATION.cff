@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript, the EVmutation paper, and this repository."
+title: "Reproducible EVmutation Analysis of 22 BhNIT Single-Point Mutations"
+type: software
+authors:
+  - family-names: "Wang"
+    given-names: "Yifeng"
+repository-code: "https://github.com/YOUR_USERNAME/YOUR_REPOSITORY"
+url: "https://github.com/YOUR_USERNAME/YOUR_REPOSITORY"
+version: "1.0.0"
+date-released: "2026-07-25"
+license: MIT

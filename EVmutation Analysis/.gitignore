@@ -1,0 +1,12 @@
+config.sh
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+database/uniref90.fasta
+database/uniref90.fasta.gz
+*.tmp
+*.pid
+nohup.out
+.DS_Store
+Thumbs.db

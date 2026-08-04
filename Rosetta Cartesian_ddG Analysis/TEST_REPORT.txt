@@ -1,0 +1,7 @@
+Validation completed successfully.
+
+- Python scripts: syntax check passed
+- Bash scripts: syntax check passed
+- Parser unit test: 1 passed
+
+The Rosetta calculation itself was not executed in this environment because Rosetta and the final BhNIT PDB are user-provided licensed/local inputs.

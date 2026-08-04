@@ -1,0 +1,20 @@
+Operating system:
+PRETTY_NAME="Ubuntu 24.04.4 LTS"
+Linux DESKTOP-C3EIKUC 6.18.33.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun 18 21:54:43 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+
+Python:
+Python 3.12.3
+/home/ubuntu24/.venvs/evcouplings/bin/python
+
+EVcouplings:
+0.2.1
+
+plmc:
+/home/ubuntu24/.venvs/evcouplings/bin/plmc
+18c9e55e3bd2f14f4968be19a807b401996c929a
+
+jackhmmer:
+/usr/bin/jackhmmer
+# jackhmmer :: iteratively search a protein sequence against a protein database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.

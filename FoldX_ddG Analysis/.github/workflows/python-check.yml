@@ -1,0 +1,20 @@
+name: Python validation
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu 24.04.1
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install pytest
+        run: python -m pip install pytest
+      - name: Validate mutation list
+        run: python scripts/check_mutations.py mutations/individual_list.txt
+      - name: Test parser
+        run: pytest -q

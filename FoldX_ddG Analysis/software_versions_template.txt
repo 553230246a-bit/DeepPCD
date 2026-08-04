@@ -1,0 +1,8 @@
+Operating system: Windows 11
+FoldX version: FoldX 5.1
+FoldX executable filename: FoldX-DDG
+Python version: Python 3.12
+PowerShell version: PowerShell 5.1
+Input PDB filename: BhNIT
+Biological assembly or oligomeric state: Monomer
+Calculation date: 2025-03-21

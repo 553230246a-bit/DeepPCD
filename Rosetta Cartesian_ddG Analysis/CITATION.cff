@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript, Rosetta Cartesian_ddG method papers, and this repository."
+title: "Reproducible Rosetta Cartesian_ddG Analysis of 22 Single-Point Mutations"
+type: software
+authors:
+  - family-names: "Zhou"
+    given-names: "Xiaoting"
+repository-code: "https://github.com/553230246a-bit/DeepPCD"
+date-released: "2026-087-05"
+license: MIT
+keywords:
+  - Rosetta
+  - Cartesian_ddG
+  - protein stability
+  - single-point mutation
+  - reproducibility

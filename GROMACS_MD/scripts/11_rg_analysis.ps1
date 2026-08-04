@@ -1,0 +1,9 @@
+$GMX = "C:\gmx2020.6_AVX2_CUDA_win64\gmx2020.6_GPU\bin\gmx.exe"
+
+New-Item -ItemType Directory ".\analysis\rg" -Force | Out-Null
+
+& $GMX gyrate `
+    -s ".\md\md.tpr" `
+    -f ".\analysis\trajectory\md_center.xtc" `
+    -n ".\topology\index.ndx" `
+    -o ".\analysis\rg\protein_rg.xvg"

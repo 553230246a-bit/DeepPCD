@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the associated ACS Synthetic Biology manuscript and this repository."
+title: "Reproducible FoldX DDG Analysis of 22 Independent Single-Point Mutations"
+type: software
+authors:
+  - family-names: "Zhou"
+    given-names: "Xiaoting"
+repository-code: "https://github.com/553230246a-bit/DeepPCD"
+version: "1.0.0"
+date-released: "2026-07-31"
+license: MIT
+keywords:
+  - FoldX
+  - protein stability
+  - DDG
+  - single-point mutation
+  - reproducibility
+  - ACS Synthetic Biology

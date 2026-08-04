@@ -1,0 +1,33 @@
+Date: 2026-07-24T15:28:30+08:00
+
+Operating system:
+PRETTY_NAME="Ubuntu 24.04.4 LTS"
+
+Python:
+Python 3.12.3
+
+EVcouplings:
+0.2.1
+
+plmc:
+/home/ubuntu24/.venvs/evcouplings/bin/plmc
+18c9e55e3bd2f14f4968be19a807b401996c929a
+
+jackhmmer:
+/usr/bin/jackhmmer
+# jackhmmer :: iteratively search a protein sequence against a protein database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+
+Database:
+/home/ubuntu24/evmutation_BhNIT/database/uniref90.fasta
+
+Commands:
+jackhmmer iterations: 5
+jackhmmer E-value threshold: 1e-3
+minimum sequence coverage: 0.70
+plmc theta: 0.2
+plmc lambda_e: 16.0
+plmc lambda_h: 0.01
+plmc max iterations: 100
+plmc precision: float32
