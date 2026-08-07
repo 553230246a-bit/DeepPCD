@@ -544,7 +544,7 @@ Set-Location "C:\\Users\\zxt\\Desktop\\GMX\_BhNIT\_pH5p5"
 $ROOT = (Get-Location).Path
 $GMX  = "C:\\gmx2020.6\_AVX2\_CUDA\_win64\\gmx2020.6\_GPU\\bin\\gmx.exe"
 $TPR  = "$ROOT\\md\\md.tpr"
-$XTC  = "$ROOT\\md\\md5.xtc"
+$XTC  = "$ROOT\\md\\md.xtc"
 $EDR  = "$ROOT\\md\\md.edr"
 $NDX  = "$ROOT\\topology\\index.ndx"
 $ANA  = "$ROOT\\analysis"
@@ -560,7 +560,6 @@ New-Item -ItemType Directory -Force `
   "$ANA\\sasa", `
   "$ANA\\hbond", `
   "$ANA\\catalytic\_geometry", `
-  "$ANA\\cluster", `
   "$ANA\\structures" |
 Out-Null
 ```
@@ -607,6 +606,7 @@ Verify them before analysis.
   -pbc mol `
   -center `
   -ur compact
+The `md_center.xtc` file is stored on Google Drive for public download. The download link is: https://drive.google.com/file/d/1Retd0GuvDzcUvpkLZSWRF__mb7uaLaw0/view?usp=drive_link
 ```
 
 ```powershell
@@ -784,7 +784,6 @@ analysis/catalytic\_geometry/CysSG\_nitrileC\_distance.xvg
 
 * RMSD has no universal stability cutoff.
 * Compare RMSF using identical atom selections and time windows.
-* Instantaneous pressure can fluctuate strongly; inspect means and trends.
 * Stable ligand RMSD alone does not prove catalytic competence.
 * MM/PBSA is an end-point binding-energy estimate, not a reaction barrier.
 
