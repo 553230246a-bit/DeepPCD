@@ -16,6 +16,7 @@ DeepPCD/
 
 ├── README.md
 ├── Cutoffs and random seeds.xlsx
+├── ProteinMPNN-designed sequences.xlsx
 ├── Protein structures designed by ProteinMPPN/
 
 ├── FoldX_ddG Analysis/
@@ -51,7 +52,6 @@ DeepPCD/
 
 └── metadata/
     ├── Software Environment.txt
-    └── cutoffs.txt
 ```
 
 ---
